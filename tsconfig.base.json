@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+      "target": "ES2020",
+      "module": "ESNext",
+      "moduleResolution": "Node",
+      "esModuleInterop": true,
+      "forceConsistentCasingInFileNames": true,
+      "strict": true,
+      "skipLibCheck": true,
+      "baseUrl": ".",
+      "paths": {
+        "@zxauth/core": ["packages/zxauth-core/src"],
+        "@zxauth/utils": ["packages/zxauth-utils/src"]
+      }
+    }
+  }
+  
